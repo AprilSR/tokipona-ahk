@@ -1,4 +1,4 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
@@ -20,254 +20,255 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ::i::mute
 ::v::tawa
 ::n::pi
-::c::ike
-::m::tenpo
-::w::seme
-::o::wile
-::q::ona
-::p::o
-::b::kama
-::x::taso
-::z::ken
-::F::pali
-::J::nimi
-::D::tan
-::K::ma
-::S::pilin
-::L::lili
-::A::moku
+::t::ike
+::y::tenpo
+::c::seme
+::m::wile
+::w::ona
+::o::o
+::q::kama
+::p::taso
+::b::ken
+::x::pali
+::z::nimi
+::F::tan
+::J::ma
+::D::pilin
+::K::lili
+::S::moku
+::L::lukin
+::A::tomo
 +;::
-	Send, lukin
+	Send, ilo
 Return
-::G::tomo
-::H::ilo
-::R::kepeken
-::U::sitelen
-::E::musi
-::I::anu
-::V::jo
-::N::ali
-::C::sama
-::M::luka
-::W::kin
-::O::en
-::Q::ante
-::P::pana
-::B::ijo
-::X::lape
-::Z::telo
+::G::kepeken
+::H::sitelen
+::R::musi
+::U::anu
+::E::jo
+::I::ali
+::V::sama
+::N::luka
+::T::kin
+::Y::en
+::C::ante
+::M::pana
+::W::ijo
+::O::lape
+::Q::telo
+::P::suno
+::B::wan
+::X::suli
+::Z::pini
 !Space::
 	Send, {space}
 Return
 <!f::
-	Send, suno
-Return
-<!j::
-	Send, wan
-Return
-<!d::
-	Send, suli
-Return
-<!k::
-	Send, pini
-Return
-<!s::
 	Send, nasa
 Return
-<!l::
+<!j::
 	Send, nasin
 Return
-<!a::
+<!d::
 	Send, lipu
 Return
-<!;::
+<!k::
 	Send, nanpa
 Return
-<!g::
+<!s::
 	Send, lawa
 Return
-<!h::
+<!l::
 	Send, tu
 Return
-<!r::
+<!a::
 	Send, mani
 Return
-<!u::
+<!;::
 	Send, kalama
 Return
-<!e::
+<!g::
 	Send, kulupu
 Return
-<!i::
+<!h::
 	Send, wawa
 Return
-<!v::
+<!r::
 	Send, sin
 Return
-<!n::
+<!u::
 	Send, weka
 Return
-<!c::
+<!e::
 	Send, moli
 Return
-<!m::
+<!i::
 	Send, sike
 Return
-<!w::
+<!v::
 	Send, pakala
 Return
-<!o::
+<!n::
 	Send, soweli
 Return
-<!q::
+<!t::
 	Send, sewi
 Return
-<!p::
+<!y::
 	Send, awen
 Return
-<!b::
+<!c::
 	Send, utala
 Return
-<!x::
+<!m::
 	Send, pan
 Return
-<!z::
+<!w::
 	Send, kon
 Return
->!f::
+<!o::
 	Send, poka
 Return
->!j::
+<!q::
 	Send, ko
 Return
->!d::
+<!p::
 	Send, sijelo
 Return
->!k::
+<!b::
 	Send, linja
 Return
->!s::
+<!x::
 	Send, pimeja
 Return
->!l::
+<!z::
 	Send, pu
 Return
->!a::
+>!f::
 	Send, seli
 Return
->!;::
+>!j::
 	Send, kute
 Return
->!g::
+>!d::
 	Send, kasi
 Return
->!h::
+>!k::
 	Send, jaki
 Return
->!r::
+>!s::
 	Send, insa
 Return
->!u::
+>!l::
 	Send, suwi
 Return
->!e::
+>!a::
 	Send, lete
 Return
->!i::
+>!;::
 	Send, kili
 Return
->!v::
+>!g::
 	Send, uta
 Return
->!n::
+>!h::
 	Send, kiwen
 Return
->!c::
+>!r::
 	Send, mama
 Return
->!m::
+>!u::
 	Send, open
 Return
->!w::
+>!e::
 	Send, oko
 Return
->!o::
+>!i::
 	Send, esun
 Return
->!q::
+>!v::
 	Send, meli
 Return
->!p::
+>!n::
 	Send, lupa
 Return
->!b::
+>!t::
 	Send, poki
 Return
->!x::
+>!y::
 	Send, mije
 Return
->!z::
+>!c::
 	Send, unpa
 Return
->+f::
+>!m::
 	Send, mun
 Return
->+j::
+>!w::
 	Send, olin
 Return
->+d::
+>!o::
 	Send, len
 Return
->+k::
+>!q::
 	Send, namako
 Return
->+s::
+>!p::
 	Send, palisa
 Return
->+l::
+>!b::
 	Send, pipi
 Return
->+a::
+>!x::
 	Send, loje
 Return
->+;::
+>!z::
 	Send, anpa
 Return
->+g::
+>+f::
 	Send, kule
 Return
->+h::
+>+j::
 	Send, walo
 Return
->+r::
+>+d::
 	Send, noka
 Return
->+u::
+>+k::
 	Send, nena
 Return
->+e::
+>+s::
 	Send, selo
 Return
->+i::
+>+l::
 	Send, jelo
 Return
->+v::
+>+a::
 	Send, supa
 Return
->+n::
+>+;::
 	Send, kala
 Return
->+c::
+>+g::
 	Send, laso
 Return
->+m::
+>+h::
 	Send, sinpin
 Return
->+w::
+>+r::
 	Send, mu
 Return
->+o::
+>+u::
 	Send, akesi
+Return
+>+e::
+	Send, alasa
+Return
+>+i::
+	Send, monsi
+Return
+>+v::
+	Send, waso
 Return
 +!f::
 	Send, leko
