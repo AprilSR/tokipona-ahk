@@ -143,7 +143,7 @@ kipisi: SA+g
 leko: SA+f  
 majuna: SA+h  
 monsuta: SA+j  
-mulapiso: SA+u  
+mulapisu: SA+u  
 pata: SA+d  
 po: SA+a  
 powe: SA+k  
