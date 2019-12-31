@@ -24,7 +24,7 @@ awen: LA+y
 e: d  
 en: LS+y  
 esun: RA+i  
-ijo: LS+;  
+ijo: LS+w  
 ike: LA+i  
 ilo: LS+;  
 insa: RA+s  
